@@ -16,6 +16,16 @@ public class UserRegisterRequest implements Serializable {
     private String userPassword;
     private String checkPassword;
 
+    public String getPlanetCode() {
+        return planetCode;
+    }
+
+    public void setPlanetCode(String planetCode) {
+        this.planetCode = planetCode;
+    }
+
+    private String planetCode;
+
     public String getUserAccount() {
         return userAccount;
     }
